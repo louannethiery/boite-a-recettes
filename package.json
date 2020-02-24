@@ -1,0 +1,12 @@
+{
+  "name": "boite-a-recettes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ssass --watch src/main.scss:dist/style.cssn"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

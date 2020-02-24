@@ -1,0 +1,83 @@
+input:focus {
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffbe76;
+}
+
+h1 {
+  font-family: "Merienda One";
+  font-size: 45px;
+}
+
+.form-container ::placeholder {
+  color: whitesmoke;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 20px;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+
+.form-container input[type=submit] {
+  margin-top: 2rem;
+  border: 1px solid black;
+  transition: all 0.3s;
+}
+
+.form-container input[type=submit]:hover {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.recettes-container {
+  display: flex;
+  background-color: #fcfaf5;
+}
+.recettes-container .infos {
+  padding: 200px 50px 50px 50px;
+}
+.recettes-container .image {
+  justify-content: right;
+  position: absolute;
+}
+
+.btn-disconnect {
+  background: #000000;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.6rem;
+  color: #fff;
+  border: none;
+}
+.btn-disconnect a:link {
+  text-decoration: none;
+}
+
+.imgplusingredients {
+  display: flex;
+}
+.imgplusingredients .gauche, .imgplusingredients .droite {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

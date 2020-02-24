@@ -1,0 +1,84 @@
+input:focus{
+    outline: none;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbe76;
+}
+
+h1{
+    font-family: 'Merienda One';
+    font-size: 45px;
+}
+
+.form-container ::placeholder{
+    color: whitesmoke;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input{
+    padding: 20px;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.form-container input[type=submit]{
+    margin-top: 2rem;
+    border: 1px solid black;
+    transition: all .3s;
+}
+
+.form-container input[type=submit]:hover{
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container h1{
+    text-align: center;
+}
+
+.recettes-container{
+    display: flex;
+    background-color: rgb(252, 250, 245);
+    
+    .infos{
+        padding: 200px 50px 50px 50px;
+        }
+
+        .image{
+            justify-content: right;
+            position: absolute;
+        }
+}
+
+.btn-disconnect{
+    background: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    border: none;
+
+    a:link{
+    text-decoration:none;
+    }
+}
+
+.imgplusingredients {
+    display: flex;
+
+    .gauche, .droite {
+        width: 50%;
+    }
+}
